@@ -1,4 +1,4 @@
-package abstractfactory;
+package absfactory;
 
 public class FabricaSamsung implements Fabrica{
 

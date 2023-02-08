@@ -1,4 +1,4 @@
-package abstractfactory;
+package absfactory;
 
 public class NeveraApple implements Nevera {
     @Override

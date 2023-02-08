@@ -1,4 +1,4 @@
-package abstractfactory;
+package absfactory;
 
 public class SillaSamsung implements Silla{
     @Override
