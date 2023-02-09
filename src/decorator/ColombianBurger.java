@@ -6,8 +6,8 @@ public class ColombianBurger extends BurgerDecorator {
     }
 
     @Override
-    public void mostrarMenu() {
-        super.mostrarMenu();
+    public void mostrarIngredientes() {
+        super.mostrarIngredientes();
         System.out.println("Ademas de los ingrenientes especiales de la hamburgesa Colombiana:");
         this.añadirSalsa();
         this.añadirPatacon();

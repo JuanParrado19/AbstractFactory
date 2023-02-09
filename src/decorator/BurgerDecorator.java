@@ -6,8 +6,8 @@ public class BurgerDecorator implements Burger {
         this.burger = burger;
     }
     @Override
-    public void mostrarMenu() {
-        this.burger.mostrarMenu();
+    public void mostrarIngredientes() {
+        this.burger.mostrarIngredientes();
     }
 }
 

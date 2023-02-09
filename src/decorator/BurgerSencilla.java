@@ -1,7 +1,7 @@
 package decorator;
 
 public class BurgerSencilla implements Burger {
-    public void mostrarMenu() {
+    public void mostrarIngredientes() {
         System.out.println("Hamburguesa con: ");
         this.añadirIngredientes();
     }

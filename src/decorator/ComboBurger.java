@@ -6,14 +6,14 @@ public class ComboBurger extends BurgerDecorator {
     }
 
     @Override
-    public void mostrarMenu() {
-        super.mostrarMenu();
+    public void mostrarIngredientes() {
+        super.mostrarIngredientes();
         System.out.println("Acompañada de:");
         this.añadirBebidaYPapas();
     }
 
     private void añadirBebidaYPapas() {
-        System.out.println("Papas en cascos y gaseosa");
+        System.out.println(" Papas en cascos y gaseosa");
     }
 }
 
